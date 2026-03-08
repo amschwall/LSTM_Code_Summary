@@ -22,17 +22,22 @@ pip install nltk, pandas, bert-score, sentence-transformers
 ```
 
 # Running data extraction
-To execute data extraction and splitting:
-```bash
+To execute data extraction and splitting, open GenAI_A2_Data_Extraction.ipynb with your preffered IDE and run all cells. All generated files will be output to the working directory.
 
-```
 # Running train/validation/test
 
-To train, validate, and test data:
-```bash
-
-```
+To train, validate, and evaluaet test data, open assignment_2_LSTM.ipynb your preffered IDE and run all cells. All generated files will be output to the working directory.
 # Ouput locations
 Results from the created test set were pushed to the repository,
 # Hyper-parameters tuned
+batch_size = 20
 
+max_len = 120 (max generated summary length)
+
+hidden_layer = 512
+
+eval_steps = 200
+
+num_epochs = 100
+
+patience = 10
